@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "start_date": {
+      "type": "datetime"
+    },
+    "end_date": {
+      "type": "datetime"
+    },
+    "event_id": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "blog_post_id": {
+      "type": "text"
+    },
+    "blog_post_url": {
+      "type": "text"
+    },
+    "post_status": {
+      "type": "string"
+    },
+    "media_type": {
+      "type": "string"
+    },
+    "media_files": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "image_alt_text": {
+      "type": "text"
+    },
+    "image_prompt": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "seo_keywords": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "open_graph_description": {
+      "type": "text"
+    },
+    "cta_profile": {
+      "type": "string"
+    },
+    "cta_top": {
+      "type": "string"
+    },
+    "cta_bottom": {
+      "type": "string"
+    },
+    "general_description": {
+      "type": "text"
+    }
+  }
+}

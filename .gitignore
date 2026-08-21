@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.strapi/
+.strapi-updater.json
+*.log
+.DS_Store

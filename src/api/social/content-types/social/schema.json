@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socials",
+  "info": {
+    "singularName": "social",
+    "pluralName": "socials",
+    "displayName": "social"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "post_type": {
+      "type": "string"
+    },
+    "image_alt_text": {
+      "type": "text"
+    },
+    "image_prompt": {
+      "type": "text"
+    },
+    "media_files": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "event_id": {
+      "type": "uid"
+    },
+    "post_status": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "datetime"
+    },
+    "end_date": {
+      "type": "datetime"
+    },
+    "hashtags": {
+      "type": "string"
+    },
+    "media_type": {
+      "type": "string"
+    },
+    "facebook_post_id": {
+      "type": "string"
+    },
+    "facebook_post_url": {
+      "type": "string"
+    },
+    "instagram_post_id": {
+      "type": "string"
+    },
+    "instagram_post_url": {
+      "type": "string"
+    }
+  }
+}

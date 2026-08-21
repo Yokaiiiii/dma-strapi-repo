@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thought_leaderships",
+  "info": {
+    "singularName": "thought-leadership",
+    "pluralName": "thought-leaderships",
+    "displayName": "thought_leadership"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "event_id": {
+      "type": "uid"
+    },
+    "start_date": {
+      "type": "datetime"
+    },
+    "end_date": {
+      "type": "datetime"
+    },
+    "post_status": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "post_type": {
+      "type": "string"
+    },
+    "linkedin_post_id": {
+      "type": "string"
+    },
+    "linkedin_post_url": {
+      "type": "string"
+    }
+  }
+}
