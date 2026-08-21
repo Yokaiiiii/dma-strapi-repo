@@ -1,0 +1,14 @@
+services:
+  strapi:
+    image: dma-strapi:latest
+    container_name: dma-strapi
+    ports:
+      - "1337:1337"
+    volumes:
+      - strapi-data:/app/.tmp
+      - strapi-uploads:/app/public/uploads
+    restart: unless-stopped
+
+volumes:
+  strapi-data:
+  strapi-uploads:

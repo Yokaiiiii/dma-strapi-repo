@@ -1,7 +1,9 @@
-node_modules/
-dist/
-.strapi/
+node_modules
+dist
+.strapi
 .strapi-updater.json
+.git
+.gitignore
 *.log
 .DS_Store
 *.tar.gz
