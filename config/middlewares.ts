@@ -8,6 +8,7 @@ export default [
         'https://2lqsmd5t-3000.inc1.devtunnels.ms',
         'http://localhost:3000',
         'http://192.168.1.92:3000',
+        'https://appreciate-hourly-challenging-bathroom.trycloudflare.com',
       ],
       headers: '*',
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
